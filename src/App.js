@@ -10,9 +10,7 @@ import {
 import SubNav from "./components/SubNav";
 
 function App() {
-  const [products, setProducts] = useState(data);
-
-  console.log(products);
+  const [products] = useState(data);
   return (
     <div className="App">
       <Route
@@ -31,17 +29,5 @@ function App() {
     </div>
   );
 }
-
-const NavWrapper2 = props => {
-  return (
-    <div>
-      {props.products.map(product => (
-        <a key={product.category} href={product.category}>
-          {product.category}
-        </a>
-      ))}
-    </div>
-  );
-};
 
 export default App;
