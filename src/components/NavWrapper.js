@@ -6,9 +6,14 @@ const NavWrapper = props => {
   return (
     <div>
       {props.products.map(product => (
-        <a key={product.category} href={product.category}>
+        <NavLink
+          className="nav-item"
+          activeClassName="nav-item-active"
+          key={product.category}
+          to={product.category}
+        >
           {product.category}
-        </a>
+        </NavLink>
       ))}
     </div>
   );
