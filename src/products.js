@@ -138,19 +138,23 @@ export const products = [
     category: "Watch",
     items: [
       {
-        name: "iPhone 11 Pro",
+        name: "Apple Watch Series 5",
         icon: ""
       },
       {
-        name: "iPhone 11",
+        name: "Apple Watch Nike",
         icon: ""
       },
       {
-        name: "iPhone Xr",
+        name: "Apple Watch Hermes",
         icon: ""
       },
       {
-        name: "iPhone 8",
+        name: "Apple Watch Edition",
+        icon: ""
+      },
+      {
+        name: "Apple Watch Series 3",
         icon: ""
       },
       {
@@ -158,11 +162,11 @@ export const products = [
         icon: ""
       },
       {
-        name: "Apple Card",
+        name: "Brands",
         icon: ""
       },
       {
-        name: "AirPods",
+        name: "Airpods",
         icon: ""
       },
       {
@@ -170,7 +174,7 @@ export const products = [
         icon: ""
       },
       {
-        name: "iOS 13",
+        name: "WatchOS",
         icon: ""
       }
     ]
